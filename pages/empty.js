@@ -1,23 +1,20 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
 
-let config = {
-  "title": "",
-  "description": ""
-};
-
 export default function Page() {
   return (
     <>
       <Head>
-        <title>{config.title}</title>
-        <meta name="description" content={config.description}/>
-        <meta property="og:title" content={config.title}/>
-        <meta property="og:description" content={config.description}/>
-        <meta property="og:image" content="/favicon.ico"/>
+        <title></title>
+        <meta name="description" content=""/>
         <meta name="google" content="notranslate"/>
         <meta name="robots" content="index, follow"/>
         <meta name="revisit-after" content="7 days"/>
+        <meta name="viewport" content="
+          width=device-width,
+          initial-scale=1.0,
+          user-scalable=no
+        "/>
       </Head>
       
       <div></div>

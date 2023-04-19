@@ -1,7 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 import RESTSchema from "~/utils/RESTSchema.js";
-
 var posts = [
   {
     "id": 0,

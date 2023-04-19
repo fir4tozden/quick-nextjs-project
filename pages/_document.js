@@ -1,5 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import config from "~/config.json";
+var config = {
+  "lang": "en"
+};
 
 export default class Schema extends Document {
   render() {

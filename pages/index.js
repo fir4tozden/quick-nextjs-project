@@ -2,23 +2,20 @@ import { useState, useEffect } from "react";
 import Head from "next/head"; 
 import NextjsLogo from "~/components/NextjsLogo.js";
 
-var config = {
-  "title": "Quick Next.js Project",
-  "description": "It is a project to build a faster Next.js application."
-};
-
 export default function Page() {
   return (
     <>
       <Head>
-        <title>{config.title}</title>
-        <meta name="description" content={config.description}/>
-        <meta property="og:title" content={config.title}/>
-        <meta property="og:description" content={config.description}/>
-        <meta property="og:image" content="/favicon.ico"/>
+        <title>Quick Next.js Project</title>
+        <meta name="description" content="It is a project to build a faster Next.js application."/>
         <meta name="google" content="notranslate"/>
         <meta name="robots" content="index, follow"/>
         <meta name="revisit-after" content="7 days"/>
+        <meta name="viewport" content="
+          width=device-width,
+          initial-scale=1.0,
+          user-scalable=no
+        "/>
       </Head>
       
       <div className="flex justify-center">

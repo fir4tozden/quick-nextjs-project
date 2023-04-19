@@ -1,22 +1,19 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
 
-let config = {
-  "title": "Error 404: Not Found",
-  "description": "We explain how the sample API in this project works."
-};
-
 export default function Page() {
   return (
     <>
       <Head>
-        <title>{config.title}</title>
-        <meta name="description" content={config.description}/>
-        <meta property="og:title" content={config.title}/>
-        <meta property="og:description" content={config.description}/>
-        <meta property="og:image" content="/favicon.ico"/>
+        <title>Error 404: Not Found</title>
+        <meta name="description" content="We explain how the sample API in this project works."/>
         <meta name="google" content="notranslate"/>
         <meta name="robots" content="noindex, nofollow"/>
+        <meta name="viewport" content="
+          width=device-width,
+          initial-scale=1.0,
+          user-scalable=no
+        "/>
       </Head>
       
       <div className="flex justify-center">

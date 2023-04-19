@@ -1,22 +1,19 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
 
-let config = {
-  "title": "Error 500: Internal Server Error",
-  "description": "Something went wrong."
-};
-
 export default function Page() {
   return (
     <>
       <Head>
-        <title>{config.title}</title>
-        <meta name="description" content={config.description}/>
-        <meta property="og:title" content={config.title}/>
-        <meta property="og:description" content={config.description}/>
-        <meta property="og:image" content="/favicon.ico"/>
+        <title>Error 500: Internal Server Error</title>
+        <meta name="description" content="Something went wrong."/>
         <meta name="google" content="notranslate"/>
         <meta name="robots" content="noindex, nofollow"/>
+        <meta name="viewport" content="
+          width=device-width,
+          initial-scale=1.0,
+          user-scalable=no
+        "/>
       </Head>
       
       <div className="flex justify-center">

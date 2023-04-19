@@ -9,11 +9,6 @@ export default function Page() {
         <meta name="description" content="Something went wrong."/>
         <meta name="google" content="notranslate"/>
         <meta name="robots" content="noindex, nofollow"/>
-        <meta name="viewport" content="
-          width=device-width,
-          initial-scale=1.0,
-          user-scalable=no
-        "/>
       </Head>
       
       <div className="flex justify-center">

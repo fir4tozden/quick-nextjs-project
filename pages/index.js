@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Head from "next/head"; 
 import NextjsLogo from "../components/NextjsLogo.js";
 
-let config = {
+var config = {
   "title": "Quick Next.js Project",
   "description": "It is a project to build a faster Next.js application."
 };

@@ -22,7 +22,7 @@ export default function Page() {
       </Head>
       
       <div className="flex justify-center">
-        <div className="w-full max-w-4xl px-6 pt-24 pb-24 my-24 whitespace-normal">
+        <div className="w-full max-w-4xl px-6 pt-24 pb-24 my-24 select-none whitespace-normal">
           <span className="text-4xl font-bold flex justify-center">Welcome to Quick Next.js Project</span>
           <span className="text-2xl flex justify-center">It is a project to build a faster Next.js application.</span>
           <NextjsLogo/>

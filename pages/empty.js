@@ -18,7 +18,7 @@ export default function Page() {
         <meta name="robots" content="index, follow"/>
         <meta name="revisit-after" content="7 days"/>
       </Head>
-
+      
       <div></div>
     </>
   )

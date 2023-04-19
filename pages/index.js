@@ -19,7 +19,7 @@ export default function Page() {
         <meta name="robots" content="index, follow"/>
         <meta name="revisit-after" content="7 days"/>
       </Head>
-
+      
       <div className="flex justify-center">
         <div className="w-full max-w-4xl px-6 pt-24 pb-24 my-24 whitespace-normal">
           <span className="text-4xl font-bold flex justify-center">Welcome to Quick Next.js Project</span>

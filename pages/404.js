@@ -17,7 +17,7 @@ export default function Page() {
         <meta property="og:image" content="/favicon.ico"/>
         <meta name="robots" content="noindex, nofollow"/>
       </Head>
-
+      
       <div className="flex justify-center">
         <div className="w-full max-w-4xl px-6 pt-24 pb-24 my-24 whitespace-normal">
           <span className="text-4xl font-bold flex justify-center">Error 404 - Not Found</span>

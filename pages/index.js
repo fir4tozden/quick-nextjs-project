@@ -16,6 +16,7 @@ export default function Page() {
         <meta property="og:title" content={config.title}/>
         <meta property="og:description" content={config.description}/>
         <meta property="og:image" content="/favicon.ico"/>
+        <meta name="google" content="notranslate"/>
         <meta name="robots" content="index, follow"/>
         <meta name="revisit-after" content="7 days"/>
       </Head>

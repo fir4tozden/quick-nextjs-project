@@ -1,6 +1,6 @@
 import Head from "next/head";
-import config from "../config.json";
-import "../styles/global.css";
+import config from "~/config.json";
+import "~/styles/global.css";
 
 export default function App({ Component, PageProps }) {
   return (

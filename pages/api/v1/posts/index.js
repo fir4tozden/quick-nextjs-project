@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-import RESTSchema from "/utils/RESTSchema.js";
+import RESTSchema from "~/utils/RESTSchema.js";
 
 export default function REST(request, response) {
   if (request.method === "POST") {

@@ -6,7 +6,7 @@ export default function Component() {
   return (
     <>
       <div className="flex justify-center">
-        <Image className="mt-24" src={NextjsIcon}></Image>
+        <Image src={NextjsIcon} alt="" className="mt-24"></Image>
       </div>
     </>
   )

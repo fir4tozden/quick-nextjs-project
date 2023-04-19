@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Head from "next/head"; 
+import Link from "next/link";
 import NextjsLogo from "../components/NextjsLogo.js";
 
 var config = {

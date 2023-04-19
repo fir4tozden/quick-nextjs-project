@@ -1,5 +1,5 @@
 echo off
 cls
 :loop
-next build
+npm run build
 goto loop

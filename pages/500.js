@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Head from "next/head";
 
 let config = {
-  "title": "Error 500 - Internal Server Error",
+  "title": "Error 500: Internal Server Error",
   "description": "Something went wrong."
 };
 

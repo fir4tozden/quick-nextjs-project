@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Head from "next/head";
 
 let config = {
-  "title": "Error 404 - Not Found",
+  "title": "Error 404: Not Found",
   "description": "We explain how the sample API in this project works."
 };
 

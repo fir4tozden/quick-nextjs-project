@@ -19,9 +19,7 @@ export default function Page() {
         <meta name="revisit-after" content="7 days"/>
       </Head>
 
-      <header></header>
-      <main></main>
-      <footer></footer>
+      <div></div>
     </>
   )
 };

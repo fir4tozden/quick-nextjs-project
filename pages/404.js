@@ -18,14 +18,12 @@ export default function Page() {
         <meta name="robots" content="noindex, nofollow"/>
       </Head>
 
-      <header></header>
-      <main className="flex justify-center">
+      <div className="flex justify-center">
         <div className="w-full max-w-4xl px-6 pt-24 pb-24 my-24 whitespace-normal">
           <span className="text-4xl font-bold flex justify-center">Error 404 - Not Found</span>
           <span className="text-2xl flex justify-center">The page you are looking for could not be found.</span>
         </div>
-      </main>
-      <footer></footer>
+      </div>
     </>
   )
 };

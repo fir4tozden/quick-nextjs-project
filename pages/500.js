@@ -1,15 +1,16 @@
 import { useState, useEffect } from "react";
-import Head from "next/head";
+import Head from "~/components/Head.js";
 
 export default function Page() {
   return (
     <>
-      <Head>
-        <title>Error 500: Internal Server Error</title>
-        <meta name="description" content="Something went wrong."/>
-        <meta name="google" content="notranslate"/>
-        <meta name="robots" content="noindex, nofollow"/>
-      </Head>
+      <Head
+        title="Error 500: Internal Server Error"
+        description="Something went wrong."
+        robots="noindex, nofollow"
+        revisitAfter="7 days"
+        initialScale="1.0"
+      />
       
       <div className="flex justify-center">
         <div className="w-full max-w-4xl px-6 pt-24 pb-24 my-24 select-none whitespace-normal">

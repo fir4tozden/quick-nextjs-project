@@ -1,15 +1,16 @@
 import { useState, useEffect } from "react";
-import Head from "next/head";
+import Head from "~/components/Head.js";
 
 export default function Page() {
   return (
     <>
-      <Head>
-        <title>Error 404: Not Found</title>
-        <meta name="description" content="We explain how the sample API in this project works."/>
-        <meta name="google" content="notranslate"/>
-        <meta name="robots" content="noindex, nofollow"/>
-      </Head>
+      <Head
+        title="Error 404: Not Found"
+        description="We explain how the sample API in this project works."
+        robots="noindex, nofollow"
+        revisitAfter="7 days"
+        initialScale="1.0"
+      />
       
       <div className="flex justify-center">
         <div className="w-full max-w-4xl px-6 pt-24 pb-24 my-24 select-none whitespace-normal">

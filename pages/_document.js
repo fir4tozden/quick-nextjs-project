@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-var config = {
+
+export const config = {
   "lang": "en"
 };
 

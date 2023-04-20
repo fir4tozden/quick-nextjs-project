@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
-import Head from "next/head";
+import Head from "~/components/Head.js";
 
 export default function Page() {
   return (
     <>
-      <Head>
-        <title></title>
-        <meta name="description" content=""/>
-        <meta name="google" content="notranslate"/>
-        <meta name="robots" content="index, follow"/>
-        <meta name="revisit-after" content="7 days"/>
-      </Head>
+      <Head
+        title=""
+        description=""
+        robots="index, follow"
+        revisitAfter="7 days"
+        initialScale="1.0"
+      />
       
       <div></div>
     </>

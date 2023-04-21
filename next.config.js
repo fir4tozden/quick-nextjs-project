@@ -1,3 +1,15 @@
 module.exports = {
-  "reactStrictMode": false
+  "reactStrictMode": false,
+  "images": {
+    "remotePatterns": [
+      {
+        protocol: "http",
+        hostname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "**",
+      }
+    ]
+  }
 };

@@ -1,18 +1,28 @@
 import { useState, useEffect } from "react";
 import Head from "~/components/Head.js";
 
-export default function Page() {
+export default function Page({ params, query, props }) {
   return (
     <>
       <Head
         title=""
         description=""
-        robots="index, follow"
-        revisitAfter="7 days"
-        initialScale="1.0"
+        meta={{
+          "robots": "index, follow",
+          "revisit-after": "7 days",
+          "google": "notranslate"
+        }}
       />
       
       <div></div>
     </>
   )
+};
+
+export async function getServerSideProps({ params, query, req, res }) {
+  return {
+    "props": {"params": params || null, "query": query || null, "props": {
+
+    }}
+  }
 };

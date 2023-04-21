@@ -23,7 +23,7 @@ export default function Page({ params, query, props }) {
           <PostsHeader title={props.post.author.name + "'s post"}/>
           <hr/>
           <div className="mt-4 flex items-center">
-            <Image src={props.post.author.avatar_url} alt={props.post.author.name} width={256} height={256} className="w-10 h-10 rounded-full"/>
+            <Image src={props.post.author.avatar_url} alt="" width={256} height={256} className="w-10 h-10 rounded-full"/>
             <div className="ml-4 truncate">
               <span className="text-1xl font-semibold">{props.post.author.name}</span>
               <span className="text-gray-500 ml-2">{"@" + props.post.author.username}</span>

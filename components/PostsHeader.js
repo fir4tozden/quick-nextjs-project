@@ -4,7 +4,7 @@ import { FaArrowLeft } from "react-icons/fa";
 
 export default function Component({ title }) {
   let router = useRouter();
-
+  
   return (
     <>
       <div className="my-2 flex items-center">

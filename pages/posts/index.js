@@ -29,7 +29,7 @@ export default function Page({ params, query, props }) {
               <Link href={"/posts/" + post.id}>
                 <div className="hover:bg-gray-100">
                   <div className="mt-4 flex items-center">
-                    <Image src={post.author.avatar_url} alt={post.author.name} width={256} height={256} className="w-10 h-10 rounded-full"/>
+                    <Image src={post.author.avatar_url} alt="" width={256} height={256} className="w-10 h-10 rounded-full"/>
                     <div className="ml-4 truncate">
                       <span className="text-1xl font-semibold">{post.author.name}</span>
                       <span className="text-gray-500 ml-2">{"@" + post.author.username}</span>

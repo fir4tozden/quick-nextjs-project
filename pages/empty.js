@@ -22,7 +22,7 @@ export default function Page({ params, query, props }) {
 export async function getServerSideProps({ params, query, req, res }) {
   return {
     "props": {"params": params || null, "query": query || null, "props": {
-
+      
     }}
   }
 };

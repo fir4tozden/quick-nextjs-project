@@ -39,8 +39,8 @@ export default function Page({ params, query, props }) {
 
 export async function getServerSideProps({ query, req, res }) {
   return {
-    "props": {query, "props": {
-
+    "props": {"query": query || null, "props": {
+      
     }}
   }
 };

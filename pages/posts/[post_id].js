@@ -10,7 +10,7 @@ export default function Page({ params, query, props }) {
     <>
       <Head
         title={(props.post.content.length < 64 ? props.post.content : props.post.content.slice(0, 64) + "...") + " | " + props.post.author.name + " (@" + props.post.author.username + ")"}
-        description={props.post.content.length < 64 ? props.post.content : props.post.content.slice(0, 64) + "..."}
+        description={props.post.content}
         meta={{
           "robots": "index, follow",
           "revisit-after": "7 days",

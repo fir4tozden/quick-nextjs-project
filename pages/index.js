@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Head from "~/components/Head.js";
-import NextjsLogo from "~/components/NextjsLogo.js";
 
 export default function Page({ params, query, props }) {
   return (
@@ -20,7 +19,9 @@ export default function Page({ params, query, props }) {
         <div className="w-full max-w-4xl px-6 pt-24 pb-24 my-24 select-none whitespace-normal">
           <p className="text-4xl font-bold flex justify-center">Welcome to Quick Next.js Project!</p>
           <p className="text-2xl flex justify-center">It is a project to build a faster Next.js application.</p>
-          <NextjsLogo/>
+          <div className="flex justify-center">
+            <Image src={NextjsIcon} alt="" className="mt-24"></Image>
+          </div>
           <div className="mt-24 flex justify-center">
             <div>
               <Link href="/posts">

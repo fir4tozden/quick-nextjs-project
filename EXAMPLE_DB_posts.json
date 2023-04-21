@@ -4,8 +4,10 @@
     "author": {
       "name": "Alice Lee",
       "username": "alicelee",
-      "avatar_url": "https://i.pravatar.cc/1000?img=49"
+      "avatar_url": "https://i.pravatar.cc/256?img=49"
     },
+    "likes": 6,
+    "is_liked": true,
     "content": "Just finished reading a great book. Highly recommend it to anyone looking for a good read."
   },
   {
@@ -13,8 +15,10 @@
     "author": {
       "name": "Tom Williams",
       "username": "tomwilliams",
-      "avatar_url": "https://i.pravatar.cc/1000?img=69"
+      "avatar_url": "https://i.pravatar.cc/256?img=69"
     },
+    "likes": 2,
+    "is_liked": true,
     "content": "Just tried a new restaurant and it was amazing. Definitely going back!"
   },
   {
@@ -22,8 +26,10 @@
     "author": {
       "name": "Emily Davis",
       "username": "emilydavis",
-      "avatar_url": "https://i.pravatar.cc/1000?img=41"
+      "avatar_url": "https://i.pravatar.cc/256?img=41"
     },
+    "likes": 1,
+    "is_liked": false,
     "content": "Excited to announce that my new book is now available for pre-order! Check it out on my website."
   },
   {
@@ -31,8 +37,10 @@
     "author": {
       "name": "Michael Johnson",
       "username": "michaeljohnson",
-      "avatar_url": "https://i.pravatar.cc/1000?img=13"
+      "avatar_url": "https://i.pravatar.cc/256?img=13"
     },
+    "likes": 3,
+    "is_liked": false,
     "content": "Just finished my first marathon! It was tough but totally worth it."
   },
   {
@@ -40,8 +48,10 @@
     "author": {
       "name": "Sarah Kim",
       "username": "sarahkim",
-      "avatar_url": "https://i.pravatar.cc/1000?img=9"
+      "avatar_url": "https://i.pravatar.cc/256?img=9"
     },
+    "likes": 2,
+    "is_liked": true,
     "content": "Just watched a great movie. Highly recommend it to anyone looking for something to watch this weekend."
   },
   {
@@ -49,8 +59,10 @@
     "author": {
       "name": "David Chen",
       "username": "davidchen",
-      "avatar_url": "https://i.pravatar.cc/1000?img=8"
+      "avatar_url": "https://i.pravatar.cc/256?img=8"
     },
+    "likes": 1,
+    "is_liked": false,
     "content": "Just finished a project I've been working on for months. Feels good to finally be done!"
   },
   {
@@ -58,8 +70,10 @@
     "author": {
       "name": "Jessica Lee",
       "username": "jessicalee",
-      "avatar_url": "https://i.pravatar.cc/1000?img=5"
+      "avatar_url": "https://i.pravatar.cc/256?img=5"
     },
+    "likes": 4,
+    "is_liked": false,
     "content": "Just got back from an amazing vacation. Wish I could stay there forever!"
   },
   {
@@ -67,8 +81,10 @@
     "author": {
       "name": "Peter Smith",
       "username": "petersmith",
-      "avatar_url": "https://i.pravatar.cc/1000?img=61"
+      "avatar_url": "https://i.pravatar.cc/256?img=61"
     },
+    "likes": 2,
+    "is_liked": false,
     "content": "Excited to announce that my band's new album is now available on all streaming platforms!"
   },
   {
@@ -76,8 +92,10 @@
     "author": {
       "name": "Karen Lee",
       "username": "karenlee",
-      "avatar_url": "https://i.pravatar.cc/1000?img=48"
+      "avatar_url": "https://i.pravatar.cc/256?img=48"
     },
+    "likes": 5,
+    "is_liked": false,
     "content": "Just tried a new workout class and it was amazing. Can't wait to go back!"
   },
   {
@@ -85,8 +103,10 @@
     "author": {
       "name": "Mark Miller",
       "username": "markmiller",
-      "avatar_url": "https://i.pravatar.cc/1000?img=55"
+      "avatar_url": "https://i.pravatar.cc/256?img=55"
     },
+    "likes": 7,
+    "is_liked": false,
     "content": "Just finished a coding project I've been working on for weeks. Excited to see it in action!"
   }
 ]

@@ -18,6 +18,6 @@ export default function __App__({ Component, pageProps }) {
       Router.events.off("routeChangeError", NProgress.done);
     }
   }, [])
-
+  
   return <Component {...pageProps}/>
 };

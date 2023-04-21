@@ -32,9 +32,9 @@ export default function Page({ params, query, props }) {
             </div>
             <hr/>
           </div>
-          {props.posts.length > 0 ? props.posts.map((post, index) => (
+          {props.posts.length !== 0 ? props.posts.map((post, index) => (
             <div key={index}>
-              {index !== 0 && <hr className="mt-2" />}
+              {index !== 0 && <hr className="mt-2"/>}
               <Link href={"/posts/" + post.id}>
                 <div className="hover:bg-gray-100">
                   <div className="mt-4 flex items-center">

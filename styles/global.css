@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* NProgress */
 #nprogress .bar {
   background: #0096FF !important;
   height: 2px;
@@ -16,6 +17,7 @@
   border-left-color: #0096FF;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
   height: 5px;
   width: 5px;

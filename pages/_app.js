@@ -28,7 +28,7 @@ export default function __App__({ Component, pageProps }) {
         }
         
         #nprogress .peg {
-          box-shadow: 0 0 0;
+          box-shadow: 0px 0px 0px;
         }
         
         #nprogress .spinner-icon {

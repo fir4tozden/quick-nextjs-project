@@ -18,22 +18,24 @@ export default function Page({ params, query, props }) {
         }}
       />
       
-      <div className="pb-24 flex justify-center">
-        <div className="w-full max-w-4xl px-6 pb-4 select-none border whitespace-normal">
+      <div className="flex justify-center pb-24">
+        <div className="border max-w-4xl select-none w-full whitespace-normal">
           <PostsHeader title={props.post.author.name + "'s post"}/>
           <hr/>
-          <div className="mt-4 flex items-center">
-            <Image src={props.post.author.avatar_url} alt="" width={256} height={256} className="w-10 h-10 rounded-full"/>
-            <div className="ml-4 truncate">
-              <span className="text-1xl font-semibold">{props.post.author.name}</span>
-              <span className="text-gray-500 ml-2">{"@" + props.post.author.username}</span>
+          <div className="px-6 py-4">
+            <div className="flex items-center">
+              <Image src={props.post.author.avatar_url} alt="" width={256} height={256} className="h-10 rounded-full w-10"/>
+              <div className="ml-4 truncate">
+                <span className="font-semibold text-1xl">{props.post.author.name}</span>
+                <span className="ml-2 text-gray-500">{"@" + props.post.author.username}</span>
+              </div>
             </div>
-          </div>
-          <p className="mt-4 mr-14 select-text">{props.post.content}</p>
-          <div className="relative">
-            <div className="absolute bottom-0 right-0 flex items-center cursor-pointer">
-              <span className="mr-2">{props.post.likes}</span>
-              {props.post.is_liked === true ? <FaHeart className="text-red-500"/> : <FaRegHeart/>}
+            <p className="mr-14 mt-4 select-text">{props.post.content}</p>
+            <div className="relative">
+              <div className="absolute bottom-0 cursor-pointer flex items-center right-0">
+                <span className="mr-2">{props.post.likes}</span>
+                {props.post.is_liked === true ? <FaHeart className="text-red-500"/> : <FaRegHeart/>}
+              </div>
             </div>
           </div>
         </div>

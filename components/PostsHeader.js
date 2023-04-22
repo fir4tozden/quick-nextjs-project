@@ -7,11 +7,11 @@ export default function Component({ title }) {
   
   return (
     <>
-      <div className="my-2 flex items-center">
-        <button onClick={() => router.back()}>
+      <div className="flex items-center my-2 px-6">
+        <button onClick={router.back}>
           <FaArrowLeft size={24}/>
         </button>
-        <span className="text-lg font-bold ml-6 truncate">{title}</span>
+        <span className="font-bold ml-6 text-lg truncate">{title}</span>
       </div>
     </>
   )

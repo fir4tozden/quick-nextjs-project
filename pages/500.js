@@ -15,9 +15,9 @@ export default function Page() {
       />
       
       <div className="flex justify-center">
-        <div className="w-full max-w-4xl px-6 pt-24 pb-24 my-24 select-none whitespace-normal">
-          <p className="text-4xl font-bold flex justify-center">Error 500 - Internal Server Error</p>
-          <p className="text-2xl flex justify-center">Something went wrong. Don&apos;t worry, this is our problem.</p>
+        <div className="max-w-4xl my-24 pb-24 pt-24 px-6 select-none w-full whitespace-normal">
+          <p className="flex font-bold justify-center text-4xl">Error 500 - Internal Server Error</p>
+          <p className="flex justify-center text-2xl">Something went wrong. Don&apos;t worry, this is our problem.</p>
         </div>
       </div>
     </>

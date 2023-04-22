@@ -18,16 +18,16 @@ export default function Page({ params, query, props }) {
       />
       
       <div className="flex justify-center">
-        <div className="w-full max-w-4xl px-6 pt-24 pb-24 my-24 select-none whitespace-normal">
-          <p className="text-4xl font-bold flex justify-center">Welcome to Quick Next.js Project!</p>
-          <p className="text-2xl flex justify-center">It is a project to build a faster Next.js application.</p>
+        <div className="max-w-4xl my-24 pb-24 pt-24 px-6 select-none w-full whitespace-normal">
+          <p className="flex font-bold justify-center text-4xl">Welcome to Quick Next.js Project!</p>
+          <p className="flex justify-center text-2xl">It is a project to build a faster Next.js application.</p>
           <div className="flex justify-center">
             <Image src={NextjsLogo} alt="" className="mt-24"></Image>
           </div>
-          <div className="mt-24 flex justify-center">
+          <div className="flex justify-center mt-24">
             <div>
               <Link href="/posts">
-                <button className="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded border">GO TO POSTS</button>
+                <button className="bg-gray-500 border hover:bg-gray-600 px-4 py-2 rounded text-white">GO TO POSTS</button>
               </Link>
             </div>
           </div>

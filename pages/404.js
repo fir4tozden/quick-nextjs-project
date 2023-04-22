@@ -15,9 +15,9 @@ export default function Page() {
       />
       
       <div className="flex justify-center">
-        <div className="w-full max-w-4xl px-6 pt-24 pb-24 my-24 select-none whitespace-normal">
-          <p className="text-4xl font-bold flex justify-center">Error 404 - Not Found</p>
-          <p className="text-2xl flex justify-center">The page you are looking for could not be found.</p>
+        <div className="max-w-4xl my-24 pb-24 pt-24 px-6 select-none w-full whitespace-normal">
+          <p className="flex font-bold justify-center text-4xl">Error 404 - Not Found</p>
+          <p className="flex justify-center text-2xl">The page you are looking for could not be found.</p>
         </div>
       </div>
     </>

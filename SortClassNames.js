@@ -4,12 +4,11 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
+const chokidar = require("chokidar");
 
 var root_dirs = [
   path.join(__dirname, "pages"),
   path.join(__dirname, "components")
 ];
 
-var interval = 5000;
-
-function sortClassNames(s){let r=s.split(" ");return r.sort(),r.join(" ")}function sortClassNamesInDir(s){fs.readdir(s,(r,e)=>{if(r){console.log(r);return}e.forEach(r=>{let e=path.join(s,r);fs.stat(e,(s,r)=>{if(s){console.log(s);return}r.isDirectory()?sortClassNamesInDir(e):r.isFile()&&fs.readFile(e,"utf8",(s,r)=>{if(s){console.log(s);return}let i=r.replace(/className="(.*?)"/g,(s,r)=>`className="${sortClassNames(r)}"`);fs.writeFile(e,i,s=>{if(s){console.log(s);return}console.log(`File updated: ${e}`)})})})})})}function scanDirectories(){root_dirs.forEach(s=>{sortClassNamesInDir(s)})}scanDirectories();setInterval(scanDirectories,interval);
+function sortClassNames(r){let s=r.split(" ");return s.sort(),s.join(" ")}function sortClassNamesInDir(r){fs.readdir(r,(s,e)=>{if(s){console.log(s);return}e.forEach(s=>{let e=path.join(r,s);fs.stat(e,(r,s)=>{if(r){console.log(r);return}s.isDirectory()?sortClassNamesInDir(e):s.isFile()&&fs.readFile(e,"utf8",(r,s)=>{if(r){console.log(r);return}let a=s.replace(/className="(.*?)"/g,(r,s)=>`className="${sortClassNames(s)}"`);a!==s&&fs.writeFile(e,a,r=>{if(r){console.log(r);return}})})})})})}function watchAndScanDirectories(){root_dirs.forEach(r=>{fs.watch(r,{recursive:!0},(s,e)=>{"change"===s&&sortClassNamesInDir(r)})})}root_dirs.forEach(r=>{sortClassNamesInDir(r)}),watchAndScanDirectories();

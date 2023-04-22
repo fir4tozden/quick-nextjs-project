@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+#nprogress .bar {
+  background: #0096FF !important;
+  height: 2px;
+}
+
+#nprogress .peg {
+  box-shadow: 0px 0px 0px;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #0096FF;
+  border-left-color: #0096FF;
+}
+
 ::-webkit-scrollbar {
   height: 5px;
   width: 5px;

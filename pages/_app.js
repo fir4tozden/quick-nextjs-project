@@ -4,7 +4,7 @@ import NProgress from "nprogress";
 import "~/styles/global.css";
 import "nprogress/nprogress.css";
 
-NProgress.configure({"showSpinner": true});
+NProgress.configure({"showSpinner": true}); // CSS settings are in ./styles/global.css
 
 export default function __App__({ Component, pageProps }) {
   useEffect(() => {
@@ -19,24 +19,5 @@ export default function __App__({ Component, pageProps }) {
     }
   }, [])
   
-  return (
-    <>
-      <style>{`
-        #nprogress .bar {
-          background: #0096FF !important;
-          height: 2px;
-        }
-        
-        #nprogress .peg {
-          box-shadow: 0px 0px 0px;
-        }
-        
-        #nprogress .spinner-icon {
-          border-top-color: #0096FF;
-          border-left-color: #0096FF;
-        }
-      `}</style>
-      <Component {...pageProps}/>
-    </>
-  )
+  return <Component {...pageProps}/>
 };

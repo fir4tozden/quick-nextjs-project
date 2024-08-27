@@ -13,7 +13,7 @@ export default function Page({ params, query, props }) {
           google: "notranslate"
         }}
       />
-      
+
       <div></div>
     </>
   )

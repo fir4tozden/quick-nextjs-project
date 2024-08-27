@@ -18,7 +18,7 @@ export default function Page({ params, query, props }) {
           google: "notranslate"
         }}
       />
-      
+
       <div className="flex justify-center pb-24">
         <div className="border max-w-4xl select-none w-full whitespace-normal">
           <PostsHeader title={"POSTS"}/>

@@ -16,7 +16,7 @@ export default function Page({ params, query, props }) {
           google: "notranslate"
         }}
       />
-      
+
       <div className="flex justify-center">
         <div className="max-w-4xl my-24 pb-24 pt-24 px-6 select-none w-full whitespace-normal">
           <p className="flex font-bold justify-center text-4xl">Welcome to Quick Next.js Project!</p>

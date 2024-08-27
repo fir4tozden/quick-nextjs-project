@@ -10,7 +10,7 @@
     "eslint-config-next": "^14.0.4",
     "next": "14.2.6",
     "nprogress": "^0.2.0",
-    "postcss": "^8.4.23",
+    "postcss": "^8.4.41",
     "postcss-pxtorem": "^6.1.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",

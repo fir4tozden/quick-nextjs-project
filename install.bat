@@ -1,3 +1,3 @@
 echo off
 cls
-npm install
+npm install --force

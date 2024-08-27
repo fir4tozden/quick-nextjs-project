@@ -8,9 +8,9 @@ export default function Page() {
         title="Error 500: Internal Server Error"
         description="Something went wrong."
         meta={{
-          "robots": "noindex, nofollow",
+          robots: "noindex, nofollow",
           "revisit-after": "7 days",
-          "google": "notranslate"
+          google: "notranslate"
         }}
       />
       

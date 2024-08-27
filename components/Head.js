@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function __Head__({ title, description, meta = {"robots": "index, follow", "revisit-after": "7 days", "google": "notranslate"} }) {
+export default function __Head__({ title, description, meta = {robots: "index, follow", "revisit-after": "7 days", google: "notranslate"} }) {
   return (
     <>
       <Head>

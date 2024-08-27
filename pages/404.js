@@ -8,9 +8,9 @@ export default function Page() {
         title="Error 404: Not Found"
         description="We explain how the sample API in this project works."
         meta={{
-          "robots": "noindex, nofollow",
+          robots: "noindex, nofollow",
           "revisit-after": "7 days",
-          "google": "notranslate"
+          google: "notranslate"
         }}
       />
       

@@ -8,9 +8,9 @@ export default function Page({ params, query, props }) {
         title=""
         description=""
         meta={{
-          "robots": "index, follow",
+          robots: "index, follow",
           "revisit-after": "7 days",
-          "google": "notranslate"
+          google: "notranslate"
         }}
       />
       
@@ -19,9 +19,9 @@ export default function Page({ params, query, props }) {
   )
 };
 
-export async function getServerSideProps({ params, query, req, res }) {
+export async function getServerSideProps({ params, query, request, response }) {
   return {
-    "props": {"params": params || null, "query": query || null, "props": {
+    props: {params: params || null, query: query || null, props: {
       
     }}
   }

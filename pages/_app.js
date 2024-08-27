@@ -4,7 +4,7 @@ import NProgress from "nprogress";
 import "~/styles/global.css";
 import "nprogress/nprogress.css";
 
-NProgress.configure({"showSpinner": true}); // CSS settings are in ./styles/global.css
+NProgress.configure({showSpinner: true}); // CSS settings are in ./styles/global.css
 
 export default function __App__({ Component, pageProps }) {
   useEffect(() => {

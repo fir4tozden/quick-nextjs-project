@@ -1,7 +1,7 @@
 module.exports = {
-  "reactStrictMode": false,
-  "images": {
-    "remotePatterns": [
+  reactStrictMode: false,
+  images: {
+    remotePatterns: [
       {
         protocol: "http",
         hostname: "**",

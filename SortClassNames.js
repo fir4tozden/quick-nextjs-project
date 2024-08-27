@@ -4,7 +4,6 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
-const chokidar = require("chokidar");
 
 var root_dirs = [
   path.join(__dirname, "pages"),

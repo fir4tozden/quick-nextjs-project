@@ -11,9 +11,9 @@ export default function Page({ params, query, props }) {
         title="Quick Next.js Project"
         description="It is a project to build a faster Next.js application."
         meta={{
-          "robots": "index, follow",
+          robots: "index, follow",
           "revisit-after": "7 days",
-          "google": "notranslate"
+          google: "notranslate"
         }}
       />
       
@@ -21,9 +21,11 @@ export default function Page({ params, query, props }) {
         <div className="max-w-4xl my-24 pb-24 pt-24 px-6 select-none w-full whitespace-normal">
           <p className="flex font-bold justify-center text-4xl">Welcome to Quick Next.js Project!</p>
           <p className="flex justify-center text-2xl">It is a project to build a faster Next.js application.</p>
+
           <div className="flex justify-center">
             <Image src={NextjsLogo} alt="" className="mt-24"></Image>
           </div>
+
           <div className="flex justify-center mt-24">
             <div>
               <Link href="/posts">
@@ -37,9 +39,9 @@ export default function Page({ params, query, props }) {
   )
 };
 
-export async function getServerSideProps({ query, req, res }) {
+export async function getServerSideProps({ params, query, request, response }) {
   return {
-    "props": {"query": query || null, "props": {
+    props: {params: params || null, query: query || null, props: {
       
     }}
   }

@@ -1,3 +1,3 @@
 echo off
 cls
-npm install --force
+npm install --legacy-peer-deps

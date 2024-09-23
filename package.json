@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.20",
-    "eslint": "9.10.0",
+    "eslint": "9.11.0",
     "eslint-config-next": "^14.2.12",
     "next": "14.2.12",
     "nprogress": "^0.2.0",

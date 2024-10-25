@@ -5,7 +5,7 @@ import Head from "~/components/Head.js";
 import PostsHeader from "~/components/PostsHeader.js";
 import posts from "~/EXAMPLE_DB_posts.json";
 
-export default ({ params, query, props }) => {
+export default function Page({ params, query, props }) {
   return (
     <>
       <Head

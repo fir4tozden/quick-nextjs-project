@@ -3,7 +3,7 @@
 import RESTSchema from "~/utils/RESTSchema.js";
 import posts from "~/EXAMPLE_DB_posts.json";
 
-export default (request, response) => {
+export default async function Handler(request, response) {
   if (request.method === "GET") {
     let post = posts.find(post => post.id === request.query.post_id);
 

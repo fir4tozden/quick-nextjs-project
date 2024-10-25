@@ -6,7 +6,7 @@ import "~/styles/global.css";
 
 NProgress.configure({showSpinner: true}); // CSS settings are in ./styles/global.css
 
-export default ({ Component, pageProps }) => {
+export default function App({ Component, pageProps }) {
   useEffect(() => {
     Router.events.on("routeChangeStart", NProgress.start);
     Router.events.on("routeChangeComplete", NProgress.done);

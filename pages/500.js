@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Head from "~/components/Head.js";
 
-export default () => {
+export default function Page() {
   return (
     <>
       <Head

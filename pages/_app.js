@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import Router from "next/router";
 import NProgress from "nprogress";
-import "~/styles/global.css";
 import "nprogress/nprogress.css";
+import "~/styles/global.css";
 
 NProgress.configure({showSpinner: true}); // CSS settings are in ./styles/global.css
 
-export default function __App__({ Component, pageProps }) {
+export default ({ Component, pageProps }) => {
   useEffect(() => {
     Router.events.on("routeChangeStart", NProgress.start);
     Router.events.on("routeChangeComplete", NProgress.done);

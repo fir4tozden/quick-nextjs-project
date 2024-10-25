@@ -4,7 +4,7 @@ export const config = {
   lang: "en"
 };
 
-export default class Schema extends Document {
+export default class extends Document {
   render() {
     return (
       <Html lang={config.lang}>

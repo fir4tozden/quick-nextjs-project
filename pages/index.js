@@ -4,7 +4,7 @@ import Image from "next/image";
 import Head from "~/components/Head.js";
 import NextjsLogo from "~/public/assets/nextjs-logo.svg";
 
-export default function Page({ params, query, props }) {
+export default ({ params, query, props }) => {
   return (
     <>
       <Head
@@ -39,7 +39,7 @@ export default function Page({ params, query, props }) {
   )
 };
 
-export async function getServerSideProps({ params, query, request, response }) {
+export const getServerSideProps = async ({ params, query, request, response }) => {
   return {
     props: {params: params || null, query: query || null, props: {
       

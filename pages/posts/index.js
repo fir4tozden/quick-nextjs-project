@@ -6,7 +6,7 @@ import Head from "~/components/Head.js";
 import PostsHeader from "~/components/PostsHeader.js";
 import posts from "~/EXAMPLE_DB_posts.json";
 
-export default function Page({ params, query, props }) {
+export default ({ params, query, props }) => {
   return (
     <>
       <Head
@@ -62,7 +62,7 @@ export default function Page({ params, query, props }) {
   )
 };
 
-export async function getServerSideProps({ params, query, request, response }) {
+export const getServerSideProps = async ({ params, query, request, response }) => {
   return {
     props: {params: params || null, query: query || null, props: {
       posts

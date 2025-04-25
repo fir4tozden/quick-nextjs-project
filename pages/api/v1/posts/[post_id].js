@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-import RESTSchema from "~/utils/RESTSchema.js";
-import posts from "~/EXAMPLE_DB_posts.json";
+import RESTSchema from "../../../../utils/RESTSchema.js";
+import posts from "../../../../EXAMPLE_DB_posts.json";
 
 export default async function Handler(request, response) {
   if (request.method === "GET") {

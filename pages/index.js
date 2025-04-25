@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Head from "~/components/Head.js";
-import NextjsLogo from "~/public/assets/nextjs-logo.svg";
+import Head from "../components/Head.js";
+import NextjsLogo from "../public/assets/nextjs-logo.svg";
 
 export default function Page({ params, query, props }) {
   return (

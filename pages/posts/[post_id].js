@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import Image from "next/image";
-import Head from "~/components/Head.js";
-import PostsHeader from "~/components/PostsHeader.js";
-import posts from "~/EXAMPLE_DB_posts.json";
+import Head from "../../components/Head.js";
+import PostsHeader from "../../components/PostsHeader.js";
+import posts from "../../EXAMPLE_DB_posts.json";
 
 export default function Page({ params, query, props }) {
   return (

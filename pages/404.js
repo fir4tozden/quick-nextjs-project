@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Head from "~/components/Head.js";
+import Head from "../components/Head.js";
 
 export default function Page() {
   return (

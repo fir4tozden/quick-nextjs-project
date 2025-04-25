@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import Router from "next/router";
 import NProgress from "nprogress";
 import "nprogress/nprogress.css";
-import "~/styles/global.css";
+import "../styles/global.css";
 
-NProgress.configure({showSpinner: true}); // CSS settings are in ./styles/global.css
+NProgress.configure({showSpinner: true}); // CSS settings are in ../styles/global.css
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {

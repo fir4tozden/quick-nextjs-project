@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "next build && next start -p 3000",
+    "run": "next build && next start -p 3000",
     "dev": "next dev -p 3000",
     "build": "next build"
   },

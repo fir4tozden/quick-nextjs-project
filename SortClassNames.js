@@ -1,5 +1,5 @@
 /*
-  If you want the contents of className to be more organized, run this script with a new terminal or open the file SortClassNames.bat
+  If you want the contents of className to be more organized, run this script with a new terminal
 */
 
 const fs = require("node:fs");

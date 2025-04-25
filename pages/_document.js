@@ -14,7 +14,7 @@ export default class Schema extends Document {
           {/* If you want to remove the credit section at the bottom of the page, delete it. */}
             <div className="bg-white bottom-0 fixed h-11 max-lg:w-full select-none">
               <div className="items-center px-7 relative top-2.5">
-                <p>Made with <span className="text-red-500">❤</span> by <a href="https://github.com/fir4tozden" target="_blank" className="underline">Fırat Özden</a></p>
+                <p>Made with <span className="text-red-500">❤</span> by <a href="https://github.com/fir4tozden/quick-nextjs-project" target="_blank" className="underline">Fırat Özden</a></p>
               </div>
             </div>
           {/* ------------------------------------------------------------------------------ */}

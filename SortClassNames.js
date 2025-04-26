@@ -5,7 +5,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 
-var root_dirs = [
+let root_dirs = [
   path.join(__dirname, "pages"),
   path.join(__dirname, "components")
 ];

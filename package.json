@@ -2,20 +2,18 @@
   "scripts": {
     "run": "next build && next start -p 3000",
     "dev": "next dev -p 3000",
-    "build": "next build"
+    "build": "next build",
+    "lint": "next lint"
   },
   "dependencies": {
-    "autoprefixer": "10.4.20",
-    "eslint": "9.25.1",
-    "eslint-config-next": "^15.0.3",
-    "next": "15.3.1",
+    "@tailwindcss/postcss": "^4.1.4",
+    "autoprefixer": "^10.4.21",
+    "next": "^15.3.1",
     "nprogress": "^0.2.0",
-    "postcss": "^8.5.3",
     "postcss-pxtorem": "^6.1.0",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "react-icons": "^5.5.0",
-    "tailwindcss": "4.1.4"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0"
   },
   "engines": {
     "node": "18.x"

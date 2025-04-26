@@ -7,7 +7,7 @@
       "avatar_url": "https://i.pravatar.cc/256?img=49"
     },
     "likes": 6,
-    "is_liked": true,
+    "liked": true,
     "content": "Just finished reading a great book. Highly recommend it to anyone looking for a good read."
   },
   {
@@ -18,7 +18,7 @@
       "avatar_url": "https://i.pravatar.cc/256?img=69"
     },
     "likes": 2,
-    "is_liked": true,
+    "liked": true,
     "content": "Just tried a new restaurant and it was amazing. Definitely going back!"
   },
   {
@@ -29,7 +29,7 @@
       "avatar_url": "https://i.pravatar.cc/256?img=41"
     },
     "likes": 1,
-    "is_liked": false,
+    "liked": false,
     "content": "Excited to announce that my new book is now available for pre-order! Check it out on my website."
   },
   {
@@ -40,7 +40,7 @@
       "avatar_url": "https://i.pravatar.cc/256?img=13"
     },
     "likes": 3,
-    "is_liked": false,
+    "liked": false,
     "content": "Just finished my first marathon! It was tough but totally worth it."
   },
   {
@@ -51,7 +51,7 @@
       "avatar_url": "https://i.pravatar.cc/256?img=9"
     },
     "likes": 2,
-    "is_liked": true,
+    "liked": true,
     "content": "Just watched a great movie. Highly recommend it to anyone looking for something to watch this weekend."
   },
   {
@@ -62,7 +62,7 @@
       "avatar_url": "https://i.pravatar.cc/256?img=8"
     },
     "likes": 1,
-    "is_liked": false,
+    "liked": false,
     "content": "Just finished a project I've been working on for months. Feels good to finally be done!"
   },
   {
@@ -73,7 +73,7 @@
       "avatar_url": "https://i.pravatar.cc/256?img=5"
     },
     "likes": 4,
-    "is_liked": false,
+    "liked": false,
     "content": "Just got back from an amazing vacation. Wish I could stay there forever!"
   },
   {
@@ -84,7 +84,7 @@
       "avatar_url": "https://i.pravatar.cc/256?img=61"
     },
     "likes": 2,
-    "is_liked": false,
+    "liked": false,
     "content": "Excited to announce that my band's new album is now available on all streaming platforms!"
   },
   {
@@ -95,7 +95,7 @@
       "avatar_url": "https://i.pravatar.cc/256?img=48"
     },
     "likes": 5,
-    "is_liked": false,
+    "liked": false,
     "content": "Just tried a new workout class and it was amazing. Can't wait to go back!"
   },
   {
@@ -106,7 +106,7 @@
       "avatar_url": "https://i.pravatar.cc/256?img=55"
     },
     "likes": 7,
-    "is_liked": false,
+    "liked": false,
     "content": "Just finished a coding project I've been working on for weeks. Excited to see it in action!"
   }
 ]

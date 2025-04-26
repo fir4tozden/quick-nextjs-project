@@ -19,9 +19,9 @@ export default function Page({ params, query, props }) {
   )
 };
 
-export const getServerSideProps = async ({ params, query, request, response }) => {
+export const getServerSideProps = async ({ params = null, query = null, request, response }) => {
   return {
-    props: {params: params || null, query: query || null, props: {
+    props: {params, query, props: {
 
     }}
   }

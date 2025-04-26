@@ -29,7 +29,7 @@ export default function Page({ params, query, props }) {
           <div className="flex justify-center mt-24">
             <div>
               <Link href="/posts">
-                <button className="bg-gray-500 border hover:bg-gray-600 px-4 py-2 rounded text-white">GO TO POSTS</button>
+                <button className="bg-gray-500 border border-gray-500 cursor-pointer hover:bg-gray-600 px-4 py-2 rounded text-white">GO TO POSTS</button>
               </Link>
             </div>
           </div>
@@ -39,9 +39,9 @@ export default function Page({ params, query, props }) {
   )
 };
 
-export const getServerSideProps = async ({ params, query, request, response }) => {
+export const getServerSideProps = async ({ params = null, query = null, request, response }) => {
   return {
-    props: {params: params || null, query: query || null, props: {
+    props: {params, query, props: {
 
     }}
   }
